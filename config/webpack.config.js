@@ -50,7 +50,7 @@ module.exports = {
         path: isProdution ? path.resolve(__dirname, "../dist") : undefined,
         filename: isProdution ? "static/js/[name].[contenthash:10].js" : "static/js/[name].js",
         chunkFilename: isProdution ? "static/js/[name].[contenthash:10].chunk.js" : "static/js/[name].chunk.js",
-        assetModuleFilename: "static/media/[hash:10][ext][query]",
+        assetModuleFilename: "static/images/[name].[hash:10].[ext]",
         clean: true,
     },
     module: {
