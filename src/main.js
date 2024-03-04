@@ -7,6 +7,7 @@ import { BrowserRouter } from "react-router-dom"
 
 import "antd/dist/antd.less"
 import App from "./App"
+import "./style/common.css"
 
 // 创建来自index.html的根标签
 const root = ReactDOM.createRoot(document.getElementById("App"));
